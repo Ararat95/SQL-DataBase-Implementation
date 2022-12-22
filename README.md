@@ -43,4 +43,26 @@
    this is possible type of select in task
 ### In Project DB
   in project DB you can search only with project name and/or deadline, and all as you want
-  *select from project.data where name = name, deadline = deadline
+  *select from project.data where name = name, deadline = deadline*
+
+## Delete function
+**delete from /DB file name/ where /the same datas which you can use for search as shown higher/**
+### In User DB
+*delete all from user.data* to delete all DB
+*delete all from user.data where /some data/* to delete all found users
+*delete from user.data where /some data/* to delete only found user
+
+### In Task DB and in Project DB
+*delete from task.data where* will found task and will remove if you will agree                                                                                                                                  
+## Update function
+**update in /DB file name/ /new data with the same syntax/ where /old data with the same syntax to find/**
+
+### In User DB
+**You can update all data about user**
+### In Task DB
+**You can update ony Title, description, deadline, and users**
+### In Project DB
+**You can only update project description and deadline**
+                                                                                                                                  
+                                                                                                                                  
+### *** Thank you for your attention, i hope you will like this DB ***
