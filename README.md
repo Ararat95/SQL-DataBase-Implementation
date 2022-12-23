@@ -1,11 +1,11 @@
 # This is MY SQL DataBase system own implementation 
 
 
-**THIS FILE CONTAINS OF DB FILES IN DB FOLDER AND SOURCE FILES IN SRC FOLDER**
+**THIS FILE CONTAINS DB FILES IN DB FOLDER AND SOURCE FILES IN SRC FOLDER**
 
-***To use all this it's important to follow syntax to get real and neccessary result***
+***To use all of this it's important to follow the special syntax to have neccessary result***
 
-**Instructions are insert, delete, update, select**
+**Instructions are as follows (insert, delete, update, select)**
 **For all DBs you need to know main instruction calls, see below**
 ## Insert function
 **insert into /DB file name/ data input** 
@@ -21,11 +21,11 @@
   Some changes for users, and description, use <> scopes to encapsulate all data and not to have any other problems later.*
   
 ### In Project DB
-  **Here are some other changes, so you can add task to project and user to project**
+  **Here are some other changes, so you can add task to project and user in project**
  >*insert into project.data name = name, description = <the same syntax>, deadline = also the same*
  neccessary is only project name, others are optional,
  syntax for task see below
- >*insert into project.data project = project, task = {task data part as shown higher without adding projject name once more},* also you can use the other syntax as below
+ >*insert into project.data project = project, task = {task data part as shown above without adding project name},* also you can use the other syntax as below
  >*insert into project.data task = {data with project name included}*
  For users here another syntax
  >*insert into project.data project = project, user = {user emails and between all emails add ',' }*
@@ -46,7 +46,7 @@
   >*select from project.data where name = name, deadline = deadline*
 
 ## Delete function
->**delete from /DB file name/ where /the same datas which you can use for search as shown higher/**
+>**delete from /DB file name/ where /the same datas which you can use for search as shown above/**
 ### In User DB
 >*delete all from user.data* to delete all DB
 >*delete all from user.data where /some data/* to delete all found users
