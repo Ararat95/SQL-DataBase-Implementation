@@ -6,6 +6,7 @@
 ***To use all of this it's important to follow the special syntax to have neccessary result***
 
 **Instructions are as follows (insert, delete, update, select)**
+
 **For all DBs you need to know main instruction calls, see below**
 ## Insert function
 **insert into /DB file name/ data input** 
